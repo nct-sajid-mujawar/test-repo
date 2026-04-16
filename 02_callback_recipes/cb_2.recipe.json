@@ -1,0 +1,47 @@
+{
+  "name": "cb_2",
+  "description": "",
+  "version": 2,
+  "private": false,
+  "concurrency": 1,
+  "code": {
+    "number": 0,
+    "provider": "workato_recipe_function",
+    "name": "execute",
+    "as": "f1da629c",
+    "keyword": "trigger",
+    "input": {
+    },
+    "block": [
+      {
+        "number": 1,
+        "keyword": "if",
+        "input": {
+          "type": "compound",
+          "operand": "and",
+          "conditions": [
+            {
+              "operand": "starts_with",
+              "lhs": "a",
+              "rhs": "b",
+              "uuid": "dc6e0d46-26b8-4af5-9ce7-6c46e10509ba"
+            }
+          ]
+        },
+        "block": [
+
+        ],
+        "uuid": "fffe5cb2-bbae-4f06-8842-c416c15010de"
+      }
+    ],
+    "uuid": "531ab559-13f7-463a-a153-1338aabaa0e4"
+  },
+  "config": [
+    {
+      "keyword": "application",
+      "provider": "workato_recipe_function",
+      "skip_validation": false,
+      "account_id": null
+    }
+  ]
+}
